@@ -1,7 +1,7 @@
 {
   "name": "fenwoody",
   "version": "1.0.0",
-  "description": "",
+  "description": "Creates a SVG chess board from a FEN string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -18,5 +18,13 @@
     "@types/jest": "^29.2.3",
     "jest": "^29.3.1",
     "ts-jest": "^29.0.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/obsessiveo/fenwoody.git"
+  },
+  "bugs": {
+    "url": "https://github.com/obsessiveo/fenwoody/issues"
+  },
+  "homepage": "https://github.com/obsessiveo/fenwoody#readme"
 }
