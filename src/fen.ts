@@ -14,7 +14,7 @@ const roles: { [letter: string]: woodyTypes.Role } = {
 };
 
 /**
- * @description Convert a fen string (only pieces) to a map of pieces
+ * @description Convert a fen string (only pieces) to a map of pieces and coordinates
  * @param fen The fen string
  * @returns Map of pieces
  */
@@ -39,6 +39,7 @@ export function fenToPieces(fen: woodyTypes.FEN): woodyTypes.Pieces {
       row--;
       col = 0;
     } else if (c === ' ') {
+      /* space, ignore the rest of the fen */
       break;
     }
   }
