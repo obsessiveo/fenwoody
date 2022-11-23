@@ -13,35 +13,18 @@ For example the FEN string `r2qk3/pp2n1p1/2ppPp2/6p1/2B5/7r/PP2QPPP/4R1K1 w q - 
 ## 2. Installation
 
 ```bash
-npm install fenwoody
+npm install @obsessiveo/fenwoody
 ```
 
 ## 3. Usage
 
-```bash
-fenwoody -h
+```javascript
+const options: Options = {
+    inverted: false,
+    showCoordinates: true,
+  };
+  const svg = convertFenToSvg('r2qk3/pp2n1p1/2ppPp2/6p1/2B5/7r/PP2QPPP/4R1K1 w q - 0 19', options);
 ```
 
-```bash
-
-Usage: fenwoody [options]
-
-Options:
-  -V, --version          output the version number
-  -d, --dir <dir>        directory to be parsed (default: ".")
-  -e, --exclude <regex>  exclude files matching the regex (default: "node_modules")
-  -h, --help             display help for command
-
-```
-
-## 4. Example
-
-```bash
-fenwoody -d .
-```
-
-```bash
-
-![For example](/assets/example.svg)
 ## Resources
 - [Great svg editor](https://editsvgcode.com/)

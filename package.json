@@ -1,7 +1,7 @@
 {
   "name": "fenwoody",
   "version": "1.0.0",
-  "description": "Creates a SVG chess board from a FEN string",
+  "description": "Creates an SVG chess board from a FEN string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -9,7 +9,7 @@
     "prepublish": "tsc"
   },
   "keywords": [],
-  "author": "Obsessiveo <obsessiveo@protonmail.com>",
+  "author": "Obsessiveo",
   "license": "MIT",
   "dependencies": {
     "@types/node": "^18.11.9"
