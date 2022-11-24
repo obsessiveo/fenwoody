@@ -5,7 +5,7 @@ describe('Fenwoody', () => {
   const options: FenWoodyOptions = {
     inverted: false,
     showCoordinates: true,
-    outputFormat: 'base64',
+    outputFormat: 'svg',
   };
   const svg = convertFenToSvg(initialFEN, options);
   console.log(svg);

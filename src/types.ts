@@ -22,12 +22,14 @@ export type BoardFromFEN = {
 };
 
 export type FenWoodyOptions = {
-  inverted: boolean /* true if the board should be inverted */;
-  lightColor?: string /* light color of the board */;
-  darkColor?: string /* dark color of the board */;
+  inverted: boolean /* true if the board should be inverted, e.g. black pieces at the bottom */;
+  lightColor?: string /* optional hex value color of the light board squares, defaults to #f0d9b5 (# is a must)  */;
+  darkColor?: string /* optonal hex value color of the dark board squares, defaults to #b58863 (# is a must) */;
   showCoordinates: boolean /* true if the coordinates should be shown, e.g. ranks and files */;
-  outputFormat?: 'svg' | 'base64' /* the output format, default is svg minimized */;
+  outputFormat?: 'svg' | 'base64' /* optional the output format, default is a svg string. */;
 };
+
+// if outputFormat is 'base64' the result will be a Data URI base64 encoded string, e.g. string "data:image/svg+xml;base64,..."
 
 export const colors = ['l', 'd'] as const;
 export const files = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h'] as const;

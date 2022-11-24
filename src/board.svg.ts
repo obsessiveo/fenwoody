@@ -190,21 +190,21 @@ fill="url(#dark)">c</text>
 fill="url(#light)">b</text>
 <text x="315" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
 fill="url(#dark)">a</text>
-<text x="0" y="315" dx="10" font-size="12" font-weight="bold"
+<text x="0" y="315" dy="10" font-size="12" font-weight="bold"
 fill="url(#light)">8</text>
-<text x="0" y="270" dx="10" font-size="12" font-weight="bold"
+<text x="0" y="270" dy="10" font-size="12" font-weight="bold"
 fill="url(#dark)">7</text>
-<text x="0" y="225" dx="10" font-size="12" font-weight="bold"
+<text x="0" y="225" dy="10" font-size="12" font-weight="bold"
 fill="url(#light)">6</text>
-<text x="0" y="180" dx="10" font-size="12" font-weight="bold"
+<text x="0" y="180" dy="10" font-size="12" font-weight="bold"
 fill="url(#dark)">5</text>
-<text x="0" y="135" dx="10" font-size="12" font-weight="bold"
+<text x="0" y="135" dy="10" font-size="12" font-weight="bold"
 fill="url(#light)">4</text>
-<text x="0" y="90" dx="10" font-size="12" font-weight="bold"
+<text x="0" y="90" dy="10" font-size="12" font-weight="bold"
 fill="url(#dark)">3</text>
-<text x="0" y="45" dx="10" font-size="12" font-weight="bold"
+<text x="0" y="45" dy="10" font-size="12" font-weight="bold"
 fill="url(#light)">2</text>
-<text x="0" y="0" dx="10" font-size="12" font-weight="bold"
+<text x="0" y="0" dy="10" font-size="12" font-weight="bold"
 fill="url(#dark)">1</text>
 </g>
 </defs>
