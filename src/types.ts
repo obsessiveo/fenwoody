@@ -21,11 +21,12 @@ export type BoardFromFEN = {
   side: Color;
 };
 
-export type Options = {
+export type FenWoodyOptions = {
   inverted: boolean /* true if the board should be inverted */;
   lightColor?: string /* light color of the board */;
   darkColor?: string /* dark color of the board */;
   showCoordinates: boolean /* true if the coordinates should be shown, e.g. ranks and files */;
+  outputFormat?: 'svg' | 'base64' /* the output format, default is svg minimized */;
 };
 
 export const colors = ['l', 'd'] as const;

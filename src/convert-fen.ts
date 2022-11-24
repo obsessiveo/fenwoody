@@ -5,6 +5,7 @@ Copyright (c) 2022 Obsessiveo
 import * as woodyTypes from './types';
 import { SVGBOARD } from './board.svg';
 import { fenToPieces } from './fen';
+import { base64Encode } from '@obsessiveo/base64';
 
 /**
  * Converts a FEN to a SVG board.
@@ -12,10 +13,11 @@ import { fenToPieces } from './fen';
  * @param options the options to use
  * @returns the SVG board
  */
-export function convertFenToSvg(fen: string, options: woodyTypes.Options): string {
+export function convertFenToSvg(fen: string, options: woodyTypes.FenWoodyOptions): string {
   // the default colors
   const lightColor = options.lightColor ?? woodyTypes.lightColor;
   const darkColor = options.darkColor ?? woodyTypes.darkColor;
+  const outputFormat = options.outputFormat ?? 'svg';
 
   // get the pieces from the fen
   // fen is not validated here
@@ -26,9 +28,11 @@ export function convertFenToSvg(fen: string, options: woodyTypes.Options): strin
   // add the coordinates if needed
   if (options.showCoordinates) {
     svg = svg.replace(
-      '<!-- Coordinates -->',
+      '{Coordinates}',
       options.inverted ? `<use href="#coordinates-inverted" />` : `<use href="#coordinates-normal" />`
     );
+  } else {
+    svg = svg.replace('{Coordinates}', '');
   }
 
   // create the svg pieces, one piece per line
@@ -42,7 +46,15 @@ export function convertFenToSvg(fen: string, options: woodyTypes.Options): strin
     svgPieces += `<use x="${x}" y="${y}" href="#${svgPieceId}"/>\n`;
   });
 
-  svg = svg.replace('<!-- Pieces -->', svgPieces);
+  svg = svg.replace('{Pieces}', svgPieces);
 
-  return svg;
+  // data:image/svg+xml;base64,
+
+  if (outputFormat === 'base64') {
+    const svg64 = base64Encode(svg);
+    const dataUri = `data:image/svg+xml;base64,${svg64}`;
+    return dataUri;
+  } else {
+    return svg;
+  }
 }

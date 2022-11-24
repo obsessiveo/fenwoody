@@ -12,6 +12,7 @@
   "author": "Obsessiveo",
   "license": "MIT",
   "dependencies": {
+    "@obsessiveo/base64": "^1.0.3",
     "@types/node": "^18.11.9"
   },
   "devDependencies": {

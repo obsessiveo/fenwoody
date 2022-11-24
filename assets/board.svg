@@ -154,75 +154,75 @@
         <!-- coordinates normal -->
         <g id="coordinates-normal">
             <!-- files a,c, .., h -->
-            <text x="0" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="0" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#light)">a</text>
-            <text x="45" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="45" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#dark)">b</text>
-            <text x="90" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="90" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#light)">c</text>
-            <text x="135" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="135" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#dark)">d</text>
-            <text x="180" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="180" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#light)">e</text>
-            <text x="225" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="225" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#dark)">f</text>
-            <text x="270" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="270" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#light)">g</text>
-            <text x="315" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="315" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#dark)">h</text>
             <!-- Ranks 1,2, .., 8 -->
-            <text x="0" y="315" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="315" dy="10" font-size="12" font-weight="bold"
                 fill="url(#light)">1</text>
-            <text x="0" y="270" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="270" dy="10" font-size="12" font-weight="bold"
                 fill="url(#dark)">2</text>
-            <text x="0" y="225" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="225" dy="10" font-size="12" font-weight="bold"
                 fill="url(#light)">3</text>
-            <text x="0" y="180" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="180" dy="10" font-size="12" font-weight="bold"
                 fill="url(#dark)">4</text>
-            <text x="0" y="135" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="135" dy="10" font-size="12" font-weight="bold"
                 fill="url(#light)">5</text>
-            <text x="0" y="90" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="90" dy="10" font-size="12" font-weight="bold"
                 fill="url(#dark)">6</text>
-            <text x="0" y="45" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="45" dy="10" font-size="12" font-weight="bold"
                 fill="url(#light)">7</text>
-            <text x="0" y="0" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="0" dy="10" font-size="12" font-weight="bold"
                 fill="url(#dark)">8</text>
         </g>
         <!-- coordinates inverted -->
         <g id="coordinates-inverted">
             <!-- files a,c, .., h -->
-            <text x="0" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="0" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#light)">h</text>
-            <text x="45" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="45" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#dark)">g</text>
-            <text x="90" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="90" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#light)">f</text>
-            <text x="135" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="135" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#dark)">e</text>
-            <text x="180" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="180" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#light)">d</text>
-            <text x="225" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="225" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#dark)">c</text>
-            <text x="270" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="270" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#light)">b</text>
-            <text x="315" y="360" dy="-2" dx="34" font-size="18" font-weight="bold"
+            <text x="315" y="360" dy="-2" dx="36" font-size="14" font-weight="bold"
                 fill="url(#dark)">a</text>
             <!-- Ranks 1,2, .., 8 -->
-            <text x="0" y="315" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="315" dx="10" font-size="12" font-weight="bold"
                 fill="url(#light)">8</text>
-            <text x="0" y="270" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="270" dx="10" font-size="12" font-weight="bold"
                 fill="url(#dark)">7</text>
-            <text x="0" y="225" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="225" dx="10" font-size="12" font-weight="bold"
                 fill="url(#light)">6</text>
-            <text x="0" y="180" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="180" dx="10" font-size="12" font-weight="bold"
                 fill="url(#dark)">5</text>
-            <text x="0" y="135" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="135" dx="10" font-size="12" font-weight="bold"
                 fill="url(#light)">4</text>
-            <text x="0" y="90" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="90" dx="10" font-size="12" font-weight="bold"
                 fill="url(#dark)">3</text>
-            <text x="0" y="45" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="45" dx="10" font-size="12" font-weight="bold"
                 fill="url(#light)">2</text>
-            <text x="0" y="0" dy="13" dx="0" font-size="18" font-weight="bold"
+            <text x="0" y="0" dx="10" font-size="12" font-weight="bold"
                 fill="url(#dark)">1</text>
         </g>
     </defs>
@@ -249,7 +249,7 @@
     <use y="180" href="#a" />
     <use y="270" href="#a" />
     <!-- Coordinates -->
-        <use href="#coordinates-normal"
+    <use href="#coordinates-normal" />
     <!-- Pieces -->
     <use x="0" y="0" href="#rd" />
     <use x="45" y="0" href="#nd" />
