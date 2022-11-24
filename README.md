@@ -2,7 +2,7 @@
 
 ## 1. Introduction
 
-fenwoody is a simple and easy-to-use tool for generating an svg string representing the board and the pieces.
+fenwoody is a simple and easy-to-use tool for generating an svg image representing the board and the pieces from a FEN string.
 
 Can be used for example as a static image for a chess game.
 
