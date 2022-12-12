@@ -1,6 +1,6 @@
 {
   "name": "@obsessiveo/fenwoody",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Creates an SVG chess board from a FEN string",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
