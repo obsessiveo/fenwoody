@@ -3,6 +3,7 @@
 ## 1. Introduction
 
 fenwoody is a simple and easy-to-use tool for generating an svg image representing the board and the pieces from a FEN string.
+It does not validate the FEN string, so it is up to the user to make sure the FEN string is valid. Or you can call the function `validateFen`.
 
 Can be used for example as a static image for a chess game.
 
@@ -37,5 +38,15 @@ const options:FenWoodyOptions = {
 const svg = convertFenToSvg(initialFEN, options);
 ```
 
+### 3.1. To validate a FEN string
+
+for example:
+```javascript
+import { validateFen } from '@obsessiveo/fenwoody';
+
+const fen = 'rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR w KQkq - 0 1';
+const isValid = validateFen(fen);
+```
 ## Resources
 - [Great svg editor](https://editsvgcode.com/)
+- [Forsyth–Edwards Notation](https://en.wikipedia.org/wiki/Forsyth%E2%80%93Edwards_Notation)
